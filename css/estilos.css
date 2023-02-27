@@ -1,0 +1,333 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    float: top;
+    
+    
+    background-color: gray;
+}
+
+#cuerpo{
+    
+    margin:auto;
+    background-color: rgb(214, 208, 208);
+    width: 1080px;
+    height: 800px;   
+}
+
+#principal {
+
+    width: 1080px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 0px;
+    background-color: rgb(230, 181, 20);
+    
+}
+
+.menu{
+
+    list-style:none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.menu li a{
+
+    text-decoration:none;
+    color: #f3f3f3;
+    font-size: 16px;
+    padding: 15px;
+    display: block;
+    text-align: left;
+}
+
+
+.menu li a:hover{
+
+    /*background: rgb(24, 24, 85);**/
+    color: rgb(22, 235, 217);
+}
+
+#nombre {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    float: none;
+    text-align: center;   
+
+}
+
+#izquierdo{
+    width: 380px;
+    height: 700px;
+    margin-right: 0px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #f3f3f3;
+    background-color: rgb(19, 16, 16);
+
+}
+
+#datospersonales{
+
+    width: 240px;
+    height: 30px;
+    margin: 0;
+    padding-top: 150px;
+    color: #f3f3f3;
+
+}
+
+#derecho{
+    width: 700px;
+    height: 700px;
+    margin-left: 380px;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-top: 20px;    
+    background-color: #f3f3f3;    
+
+}
+
+#label{
+
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+#mensaje{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+#articulo{
+    font-family: sans-serif;
+    font-size:medium;
+}
+
+#titulo{
+
+    padding-bottom: 40px;
+    padding-right: 0px;
+    padding-top: 20px;
+}
+
+#fotocurriculum{
+
+    margin: 0px;
+    padding-top: 40px;
+    padding-left: 180px;
+    height: 400px;
+    width: 440px;
+    
+}
+
+#h4titulo{
+
+    padding-top: 20px;
+    float: none;
+}
+
+#datacell{
+
+    display: none;
+}
+
+
+/*responsive hasta 1000px*/
+
+@media (max-width: 1000px){
+
+   
+
+    body{
+        float: top;
+    }
+
+    #articulo{
+        font-family: sans-serif;
+        font-size: small;
+    }
+
+    #datospersonales{
+        display: block;
+        width: 220px;
+        height: 30px;
+        margin: 10px;
+        padding-top: 100px;
+        color: #f3f3f3;
+    
+    }
+
+    #izquierdo{
+        width: 300px;
+        height: 700px;
+        margin-right: 0px;
+        float: left;
+        padding-top: 20px;
+        padding-left: 20px;
+        color: #f3f3f3;
+        background-color: rgb(19, 16, 16);
+    
+    }
+
+    #derecho{
+        width: 500px;
+        height: 700px;
+        margin-left: 300px;
+        margin-top: 0px;
+        padding-left: 20px;
+        padding-top: 20px;    
+        background-color: #f3f3f3;    
+    
+    }
+
+    #fotocurriculum{
+
+        margin: 30px;
+        padding-left: 70px;
+        height: 380px;
+        width: 280px;
+        
+    }
+
+    #cuerpo{ 
+        margin:auto;        
+        background-color: rgb(214, 208, 208);
+        width: 800px;
+        height: 800px; 
+          
+    }
+
+    #principal {
+
+        width: 800px;
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 0px;
+        background-color: rgb(230, 181, 20);
+        
+    }
+
+
+
+}
+
+/* dispositivos moviles*/
+
+@media (max-width:780px){
+
+    body{
+        float: top;
+    }
+
+
+    .menu{
+        /*flex-direction: column;*/
+        justify-content: space-around;
+        align-items: left;
+        height: 92vh;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+      
+    }
+
+    .menu li a{
+
+        text-decoration:none;
+        color: #f3f3f3;
+        font-size: 8px;
+        padding: 15px;
+        display: block;
+        text-align: left;
+
+    }
+
+    #datospersonales{
+        display: none;
+        width: 240px;
+        height: 30px;
+        margin: 0;
+        padding-top: 150px;
+        color: #f3f3f3;
+    
+    }
+
+    #izquierdo{
+        width: 530px;
+        height: 80px;
+        margin-right: 0px;
+        float: left;
+        padding-top: 20px;
+        padding-left: 20px;
+        color: #f3f3f3;
+        background-color: rgb(19, 16, 16);
+    
+    }
+
+    #derecho{
+        width: 530px;
+        height: 650px;
+        margin-left: 0px;
+        margin-top: 80px;
+        padding-left: 20px;
+        padding-top: 20px;    
+        background-color: #f3f3f3;    
+    
+    }
+
+    #cuerpo{
+    
+        margin:auto;
+        background-color: rgb(214, 208, 208);
+        width: 530px;
+        height: 830px;   
+    }
+
+    #principal {
+
+        width: 530px;
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 0px;
+        background-color: rgb(230, 181, 20);
+        
+    }
+
+    #fotocurriculum{
+
+        margin-left: 100px;
+        margin-bottom: 10px;
+        padding-left: 0px;
+        height: 380px;
+        width: 280px;
+        
+    }
+
+    #datacell{
+
+        display: block;
+        padding-top: 50px;
+    }
+
+
+}
+
+
+
+
+
+
